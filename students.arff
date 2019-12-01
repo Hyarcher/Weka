@@ -1,0 +1,20 @@
+% 1. Title: Student Scores Database
+%
+% 2. Sources:
+%       (a) Creator: Dr Yeet
+%
+@RELATION students
+
+@ATTRIBUTE StudentId  NUMERIC
+@ATTRIBUTE Name       STRING
+@ATTRIBUTE Age        NUMERIC
+@ATTRIBUTE Score      NUMERIC
+@ATTRIBUTE Grade      STRING
+
+@DATA
+111111,Steve,21,35,E
+222222,Bob,20,61,B
+333333,God,21,99,A
+444444,Sam,20,55,C
+555555,Dan,19,48,D
+666666,Sarah,22,53,C
